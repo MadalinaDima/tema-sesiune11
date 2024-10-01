@@ -1,0 +1,50 @@
+.btn {
+  padding: 16px 64px;
+  background-color: var(--normal-gray);
+  border-radius: 24px;
+  font-size: 16px;
+  color: var(--white);
+  text-decoration: none;
+  transition: all 0.3s ease-in;
+  cursor: pointer;
+}
+
+.btn:hover {
+  opacity: 0.8;
+}
+
+.btn.btn-primary {
+  background-color: var(--button-blue);
+}
+
+.btn.btn-success {
+  background-color: var(--normal-green);
+}
+.btn .mb-64 .bottom-btn {
+  padding: 16px 64px;
+  background-color: var(--normal-green);
+  border-radius: 24px;
+  font-size: 16px;
+  color: var(--white);
+  text-decoration: none;
+  transition: all 0.3s ease-in;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+}
+.tema-suplimentara-btn {
+  padding: 16px 30px;
+  background-color: white;
+  border-radius: 24px;
+  font-size: 16px;
+  color: var(--button-blue);
+  text-decoration: none;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  margin-top: 24px;
+  transition: opacity 0.25s ease-in;
+}
+.tema-suplimentara-btn:hover {
+  opacity: 0.8;
+}

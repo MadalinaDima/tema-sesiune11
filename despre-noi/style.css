@@ -1,0 +1,359 @@
+* {
+  box-sizing: border-box;
+}
+head,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Asap", sans-serif;
+  display: flex;
+  flex-direction: column;
+}
+.header {
+  background-color: transparent;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  position: absolute;
+  width: 100%;
+  padding: 20px;
+}
+.header {
+  background-color: var(--transparent);
+  position: absolute;
+  width: 100%;
+  padding: 20px;
+}
+.max-space-available {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.header .header-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header .header-container .navigation ul {
+  list-style: none;
+  display: flex;
+  gap: 60px;
+}
+
+.header .header-container .navigation ul li a {
+  text-decoration: none;
+  color: var(--white);
+  font-weight: 700;
+  line-height: 1;
+  transition: all 0.3s ease-in;
+  font-size: 18px;
+}
+
+.header .header-container .navigation ul li:hover a {
+  color: var(--normal-orange);
+}
+
+.about-us {
+  background-image: url(https://www.itschool.ro/_next/static/media/background.5c87565d.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 470px;
+  padding-top: 180px;
+  font-size: 30px;
+  font-weight: 300;
+  line-height: 1.21;
+  text-align: center;
+  justify-content: center;
+  color: white;
+  margin: 0px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.about-school-style {
+  display: flex;
+  flex-wrap: wrap;
+  flex: 1;
+  position: relative;
+  padding: 150px 0 20px 0;
+  gap: 80px;
+}
+.about-it-school-right {
+  max-width: 480px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: end;
+  flex-direction: column;
+}
+.about-it-school-right img {
+  padding-top: 20px;
+  max-width: 100%;
+  display: flex;
+}
+.about-it-school-left {
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 580px;
+}
+.about-it-school-left img {
+  padding-top: 20px;
+  max-width: 100%;
+  display: flex;
+}
+.cine-suntem {
+  color: var(--transparent-gray);
+  line-height: 1.5;
+}
+
+.titlu-about-us {
+  font-size: 36px;
+  font-weight: normal;
+  line-height: 1.22;
+  color: var(--dark-blue);
+}
+.paragraf-about-us {
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 1.5;
+  white-space: pre-wrap;
+  color: var(--dark-blue);
+}
+
+.trainers-section {
+  background-color: #cacdc11a;
+  width: 100%;
+  padding: 96px 0px 0px 0px;
+}
+.about-trainers {
+  padding-top: 48px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.trainers-align {
+  display: flex;
+  justify-content: space-between;
+  gap: 48px;
+}
+.about-trainers .about-trainers-left {
+  display: flex;
+  flex-wrap: wrap;
+  min-width: 40%;
+  align-items: center;
+}
+.about-trainers .about-trainers-right {
+  min-width: 40%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.trainers-foto {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 96px 0px 48px;
+}
+.trainers-foto img {
+  padding-bottom: 50px;
+  max-width: 100%;
+  display: block;
+}
+.despre-traineri a {
+  padding-bottom,: 48px;
+  display: block;
+  margin: 0px;
+  transition: 0.25s ease-in;
+  padding: 0.8rem 0px;
+  font-weight: normal;
+  font-size: 16px;
+  color: rgb(0, 135, 104);
+  text-decoration: none;
+}
+.despre-traineri {
+  padding-top: 50px;
+  cursor: pointer;
+  width: fit-content;
+  padding: 0px 4.8rem;
+  display: flex;
+  -webkit-box-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  align-items: center;
+  border-radius: 2.4rem;
+  min-width: 11.4rem;
+  transition: 0.24s ease-in;
+  border: 1px solid rgb(0, 135, 104);
+  color: rgb(0, 135, 104);
+  background-color: rgba(202, 205, 193, 0.1);
+  margin: auto;
+}
+
+.despre-traineri.despre-traineri a:hover {
+  color: white;
+}
+.despre-traineri:hover {
+  background-color: var(--normal-green);
+}
+.vino-la-noi {
+  width: 100%;
+  background-image: url(https://www.itschool.ro/_next/static/media/background.570f46a1.svg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding-top: 40px;
+  border-top: 1px solid rgba(25, 30, 48, 0.1);
+  padding: 48px 0;
+}
+
+.te-invitam {
+  flex-wrap: wrap;
+  max-width: 580px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+.poze-grid img {
+  max-width: 800px;
+  min-width: 200px;
+}
+.poze-grid {
+  display: flex;
+  flex-wrap: wrap;
+  flex: 1 1 auto;
+  gap: 10px;
+}
+.buton-devino-trainer a {
+  text-decoration: none;
+  cursor: pointer;
+  width: fit-content;
+  padding: 10px 30px 10px 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 24px;
+  min-width: 140px;
+  color: white;
+  background-color: rgb(0, 135, 104);
+  transition: 0.25s ease-in;
+  margin: auto;
+}
+.buton-devino-trainer:hover {
+  opacity: 0.8;
+}
+.locations-left-right {
+  gap: 50px;
+  display: flex;
+}
+.about-locations {
+  display: flex;
+  padding: 96px 0px 48px;
+}
+.locations-left-right {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 200px;
+}
+.paragraf-locatii {
+  display: block;
+  max-width: 540px;
+}
+.locations-right-side img {
+  display: flex;
+  align-items: right;
+}
+
+.footer .content {
+  padding: 50px 20px;
+  margin-bottom: 0px;
+}
+
+.footer .links {
+  display: flex;
+  gap: 20px;
+}
+
+.footer .links .links-column {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.footer a {
+  text-decoration: none;
+  transition: color 0.3s ease-in;
+}
+
+.footer .links .links-column a {
+  margin-bottom: 8px;
+  color: var(--dark-blue);
+}
+
+.footer .terms-links a:hover,
+.footer .links .links-column a:hover {
+  color: var(--normal-green);
+}
+
+.footer .links .logo-and-stuff {
+  padding-right: 50px;
+}
+
+.footer .links .logo-and-stuff img {
+  width: 108px;
+}
+
+.footer .links .logo-and-stuff .socials {
+  display: flex;
+  gap: 20px;
+}
+
+.footer .links .logo-and-stuff .socials svg {
+  width: 24px;
+  height: 24px;
+}
+
+.footer .links .logo-and-stuff .socials svg path {
+  fill: var(--black);
+  transition: all 0.3s ease-in;
+}
+
+.footer .links .logo-and-stuff .socials svg:hover path {
+  fill: var(--hover-blue);
+}
+
+.footer .terms-links {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  font-size: 12px;
+  margin-top: 50px;
+}
+
+.footer .terms-links .copyright,
+.footer .terms-links a {
+  color: var(--transparent-gray);
+}
+
+.footer .terms-links a:first-of-type {
+  margin-left: auto;
+}
+@media (min-width: 300px) and (max-width: 1024px) {
+  body {
+    font-size: 15px;
+    padding: 10px;
+  }
+  .header .navigation {
+    display: none;
+  }
+  .about-trainers {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .footer .content .links {
+    flex-wrap: wrap;
+  }
+}
